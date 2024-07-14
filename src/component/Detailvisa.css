@@ -1,0 +1,135 @@
+.container-app-two{
+    background-color: #F5F6F8;
+    border-radius: 20px; 
+}
+
+.container-app-header{
+    border-radius: 18px 18px 0px 0px; 
+    padding: 30px 30px 15px 30px;
+    background-image: linear-gradient(135deg, rgba(60, 94, 122, 1) 0%, rgba(10, 21, 31, 1) 100%);
+}
+
+.title-visa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ava-balance-text{
+    color:#779C7A;
+    font-weight: 700;
+    font-size: 0.6rem;
+    margin-left: 18px;
+}
+
+.icon-money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #072437;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+.text-money-two{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.text-small{
+    margin-top: 1px;
+    font-weight: 500;
+    font-size: .7rem;
+    color: #657FA2;
+    margin-left: 16px;
+}
+
+.container-id-card{
+    background-image: linear-gradient(135deg, rgb(50, 75, 96) 0%, rgb(26, 45, 62) 100%);
+    padding: 12px 20px 12px 20px;
+    border-radius: 7px;
+}
+.box-transparent{
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.row-id-card-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #859fb8;
+    font-weight: 500;
+    font-size: 1.07rem;
+    padding: 0px 1px 0px 1px;
+}
+
+.row-expire-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.expire-text-two, .cvc-text-two{
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: #B8CAD1;
+    margin-top: 1px;
+}
+
+.FaCaretRight-two{
+    margin: 0px 4px 3px 3px;
+    color: #B8CAD1;
+}
+
+.expire-text-day-two, .cvc-text-code-two{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #B8CAD1;
+}
+
+
+.income-expense-two{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 12px 10px 12px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-white{
+    border-radius: 0px 0px 18px 18px; 
+    padding: 0px 30px 30px 30px;
+}
+
+.Detail-title-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    color: #223E54;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.weekly-row{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.weekly-text{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: gray;
+    margin-right: 1px;
+}

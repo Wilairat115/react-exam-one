@@ -1,0 +1,257 @@
+.container-app{
+    background-color: #F5F6F8;
+    border-radius: 20px; 
+}
+.container-app-body{
+    padding: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #223E54;
+}
+
+.RiBarChartFill{
+    margin-top: 2px;
+    color: #223E54;
+}
+
+.title-small{
+    font-weight: 500;
+    font-size: .8rem;
+    color: #AEB4C0;
+}
+
+.container-card-visa{
+    padding-top: 15px;  
+    padding-bottom: 7px; 
+}
+
+.card-visa{
+    max-width: 100%;
+    border-radius: 6px;
+    background-image: linear-gradient(135deg, #3c5e7a 0%, #0a151f 100%);
+    padding: 10px 40px 19px 40px;
+}
+
+.balance-text{
+    color:#779C7A;
+    font-weight: 700;
+    font-size: 0.53rem;
+    margin-left: 117px;
+}
+
+.row-chip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.chip-card {
+    width: 40px;
+    height: 30px;
+    background-image: linear-gradient(180deg, rgba(225, 229, 210, 1) 0%, rgba(185, 178, 130, 1) 67%);
+    border-radius: 7px;  
+}
+
+.text-money{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.colunm-text-money{
+    display: flex;
+    align-items: center;
+}
+
+.row-id-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9AAFC3;
+    font-weight: 400;
+    margin-top: 12px;
+    font-size: 1.22rem;
+}
+
+.row-expire{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.expire-cvc{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.expire-text, .cvc-text{
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: #D2DDE8;
+    margin-top: 1px;
+}
+
+.expire-text-day, .cvc-text-code{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #D2DDE8;
+}
+
+.FaCaretRight{
+    margin: 0px 4px 3px 3px;
+    color: #D2DDE8;
+}
+
+.swiper {
+    padding: 0px 0px 30px 0px;
+}
+
+.swiper-pagination-bullet {
+    width: 6px; 
+    height: 6px;
+    background-color: #8BABB5; 
+}
+
+.money-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #072437;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.income-expense{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 12px 10px 12px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.income-expense-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.income-text, .expense-text{
+    font-size: 0.8rem;
+    font-weight: 500;
+    /* color: #43545C; */
+    color: #223E54;
+    border: 2px solid #EAEAEA;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+}
+
+.income-money{
+    display: flex;
+    align-items: center;
+    color: #38ab6c;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.expense-money{
+    display: flex;
+    align-items: center;
+    color: #d82b51;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.HiArrowNarrowUp-icon{
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+.vertical-line {
+    width: 2px; 
+    height: 50px; 
+    background-color: #F6F6F6; 
+}
+
+.Detail-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    color: #223E54;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.Detail-menu{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Detail-menu-text, .Detail-menu-icon{
+    display: flex;
+    align-items: center;
+}
+
+.Detail-menu-arrow{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.Menu-text-title{
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.Menu-expense-money{
+    display: flex;
+    align-items: center;
+    color: #d82b51;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.Menu-income-money{
+    display: flex;
+    align-items: center;
+    color: #38ab6c;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+  
+
+
