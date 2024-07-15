@@ -92,7 +92,7 @@ function DetailvisaPage() {
             <div>Detail of movements</div>
             <div className="weekly-row">
               <div className="weekly-text">Weekly</div>
-            <MdOutlineKeyboardArrowDown size={21}/> 
+            <MdOutlineKeyboardArrowDown size={21} style={{marginTop:"2px"}}/> 
             </div>
           </div>
           <div className="Detail-menu">
